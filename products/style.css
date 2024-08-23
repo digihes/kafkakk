@@ -1,0 +1,72 @@
+:root {
+    --primary: #221e1e;
+    --background: #fdfbfb;
+    --sparecolor: #635b55;
+    --secondary: #000000;
+    --accent: #da8060;
+}
+
+@font-face {
+    font-family: 'Kg';
+    src: URL(../assets/KGLovinOnMe.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'aller';
+    src: URL(../assets/aller.ttf) format('truetype');
+}
+
+.container li {
+    margin: auto auto 7px auto;
+    color: var(--background);
+    list-style: none;
+    font-family: aller;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.container {
+    background-color: var(--primary);
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+
+}
+
+h2 {
+    margin-top: 37px;
+    color: var(--background);
+    font-family: Kg;
+    text-align: center;
+    text-shadow: 0px 0px 10px var(--sparecolor);
+    font-size: 3em;
+
+}
+
+.logo {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--sparecolor);
+    border-radius: 10px 10px 50% 50%;
+}
+
+.geri-button {
+    position: fixed;
+    left: 18px;
+    top: 50px;
+    background-color: var(--background);
+    border-radius: 0 50px 50px 0;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-family: aller;
+    font-size: 2em;
+    color: var(--secondary);
+
+}
+
+footer h2 {
+    margin-top: 10vh;
+    color: var(--secondary);
+    text-shadow: 0 0 5px var(--sparecolor);
+    font-size: 5em;
+}
