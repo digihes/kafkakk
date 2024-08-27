@@ -6,6 +6,10 @@
     --accent: #da8060;
 }
 
+body {
+    background: var(--background)
+}
+
 @font-face {
     font-family: 'Kg';
     src: URL(../assets/KGLovinOnMe.ttf) format('truetype');
